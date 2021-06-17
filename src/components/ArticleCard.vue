@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full overflow-hidden">
+  <div class="w-full overflow-hidden" data-aos="fade-up">
     <div class="aspect-w-16 aspect-h-9">
       <img :src="image" class="rounded-t-3xl w-full h-full object-cover object-center" alt="">
     </div>

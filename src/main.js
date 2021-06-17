@@ -8,7 +8,9 @@ import 'aos/dist/aos.css'
 import './assets/css/tailwind.css'
 import './assets/css/mystyles.css'
 
-aos.init()
+aos.init({
+  once: true
+})
 
 createApp(App)
   .use(router)
