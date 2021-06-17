@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind utilities;
+
+@layer base {
+  button:focus, input:focus {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .writing-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .mandatory-y {
+    scroll-snap-type: y mandatory;
+  }
+}
